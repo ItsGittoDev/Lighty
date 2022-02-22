@@ -1,0 +1,2951 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.seacore.lighty",
+    "pixelsRounding": true,
+    "projectUuid": "7ced28f0-2a09-44b7-970c-3f5f7d3e32cb",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Lighty",
+    "author": "SeaCore Studio // ItsGitto",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "E:\\ItsGitto's stuff\\Export Games\\Lighty [Demo]",
+    "maxFPS": 240,
+    "minFPS": 6,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 10197915,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "NewFile-1-5.png",
+      "gdevelopLogoStyle": "dark",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 3,
+      "progressBarColor": 4886754,
+      "progressBarHeight": 5,
+      "progressBarMaxWidth": 400,
+      "progressBarMinWidth": 50,
+      "progressBarWidthPercent": 100,
+      "showGDevelopSplash": false,
+      "showProgressBar": false
+    },
+    "authorIds": [
+      "oLMeSrIroIeVfmABBAc5Um8ANC03"
+    ],
+    "extensionProperties": [
+      {
+        "extension": "AdMob",
+        "property": "AdMobAppIdAndroid",
+        "value": ""
+      },
+      {
+        "extension": "Firebase",
+        "property": "FirebaseConfig",
+        "value": ""
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "BG1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "LcdSolid-VPzB.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "LcdSolid-VPzB.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LayerWindow-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LayerWindow-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "StartButtonWarning-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "StartButtonWarning-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "StartButtonWarning-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "StartButtonWarning-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NoButtonWarning-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NoButtonWarning-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RegularScreen-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RegularScreen-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SuperScreen-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SuperScreen-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "GoodScreen-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GoodScreen-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Surprise-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Surprise-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Surprise-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Surprise-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Surprise-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Surprise-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Surprise-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Surprise-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Surprise-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Surprise-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "WarningPost-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WarningPost-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-0-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "EarthStory-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EarthStory-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SunStory-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SunStory-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1-1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1-1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1-1-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1-1-3-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1-1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-19.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-23.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-24.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-25.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-26.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-27.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-28.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-29.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-30.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Jump-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jump-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Jump-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jump-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Jump-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jump-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Jump-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jump-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Jump-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jump-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Jump-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jump-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fall-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fall-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fall-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fall-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "5159883225169920.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "LightyFootsteps.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "felt.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 43\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.09,\\\"sustainPunch\\\":70,\\\"decay\\\":0.31,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":6400,\\\"frequencySweep\\\":-2100,\\\"frequencyDeltaSweep\\\":-3200,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whitenoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":0.8,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"felt\"}}",
+        "name": "felt.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "NewFile.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Laser/shoot 46\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.2220992659790273,\\\"sustainPunch\\\":0,\\\"decay\\\":3.1262209678486537,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1800,\\\"frequencySweep\\\":-300,\\\"frequencyDeltaSweep\\\":-1400,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"triangle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":25,\\\"squareDutySweep\\\":50,\\\"flangerOffset\\\":5,\\\"flangerOffsetSweep\\\":2,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"NewFile\"}}",
+        "name": "NewFile.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "gotit.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Pickup/coin 26\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.02,\\\"sustainPunch\\\":0,\\\"decay\\\":0.35000000000000003,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":900,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":20,\\\"frequencyJump1Amount\\\":80,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"breaker\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":70,\\\"squareDutySweep\\\":-15,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":8,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"gotit\"}}",
+        "name": "gotit.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG1-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Jump.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 21\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.04,\\\"sustainPunch\\\":80,\\\"decay\\\":0.39,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1100,\\\"frequencySweep\\\":500,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":60,\\\"squareDutySweep\\\":-75,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":21900,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":21100,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Jump\"}}",
+        "name": "Jump.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lighty-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lighty-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lighty-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lighty-1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lighty-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lighty-1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lighty-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lighty-1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lighty-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lighty-1-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lighty-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lighty-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "StoneSpike-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "StoneSpike-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ded.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 45\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.09,\\\"sustainPunch\\\":80,\\\"decay\\\":0.38,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":3700,\\\"frequencySweep\\\":-4500,\\\"frequencyDeltaSweep\\\":-4400,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whitenoise\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"ded\"}}",
+        "name": "ded.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SignWindow-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SignWindow-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "gears-sounds (mp3cut.net).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gears-sounds (mp3cut.net).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "lever-pull-sound-effect.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "lever-pull-sound-effect.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TorchOBJ-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TorchOBJ-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "6580892146860032.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "LightyTutorialOldMusic.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "6751447579885568.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "LightyGrassPlaceOldMusic.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Closed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Closed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Items/Chest/Chest_Closed.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Empty Open_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Empty Open_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Items/Chest/Chest_Empty Open_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Empty Open_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Empty Open_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Items/Chest/Chest_Empty Open_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Empty Open_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Empty Open_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Items/Chest/Chest_Empty Open_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Full Open_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Full Open_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Items/Chest/Chest_Full Open_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Full Open_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Full Open_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Items/Chest/Chest_Full Open_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Full Open_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Full Open_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Items/Chest/Chest_Full Open_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Mimic Open_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Mimic Open_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Items/Chest/Chest_Mimic Open_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Mimic Open_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Mimic Open_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Items/Chest/Chest_Mimic Open_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Mimic Open_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Mimic Open_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Items/Chest/Chest_Mimic Open_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bronze Shovel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bronze Shovel.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Pixel art RPG Items/Tools/Bronze Shovel.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HealthBarFrame-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HealthBarFrame-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HealthBarFrame-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HealthBarFrame-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Shadow-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shadow-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HealthBarFrame-1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HealthBarFrame-1-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HealthBarFrame-1-1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HealthBarFrame-1-1-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Saving-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saving-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Saving-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saving-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Save-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Save-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveError-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveError-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-1-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_Spinning_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_Spinning_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Pixel art spinning Items/Key_Spinning_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_Spinning_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_Spinning_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Pixel art spinning Items/Key_Spinning_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_Spinning_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_Spinning_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Pixel art spinning Items/Key_Spinning_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_Spinning_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_Spinning_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Pixel art spinning Items/Key_Spinning_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_Spinning_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_Spinning_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Pixel art spinning Items/Key_Spinning_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_Spinning_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_Spinning_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Pixel art spinning Items/Key_Spinning_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_Spinning_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_Spinning_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Pixel art spinning Items/Key_Spinning_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_Spinning_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_Spinning_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Pixel art spinning Items/Key_Spinning_8.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Claw Hammer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Claw Hammer.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 RPG Item Pack/Items/Claw Hammer.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "6524311858315264.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "LightyMenuOldMusic.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Email_Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Email_Blue.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Simple Wares Buttons/Email_Blue.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Email_Green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Email_Green.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Simple Wares Buttons/Email_Green.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Email_Grey.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Email_Grey.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Simple Wares Buttons/Email_Grey.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Email_Red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Email_Red.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Simple Wares Buttons/Email_Red.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Email_Yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Email_Yellow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Simple Wares Buttons/Email_Yellow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HealthBarFrame-1-1-1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HealthBarFrame-1-1-1-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HealthBar-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HealthBar-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "WarningHealth-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WarningHealth-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "WarningHealth-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WarningHealth-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "fnf-miss-note-sound-effect.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fnf-miss-note-sound-effect.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-2-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "blue-screen-of-death-bsod-sound-effect.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "blue-screen-of-death-bsod-sound-effect.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Falling-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Falling-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Falling-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Falling-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dead-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dead-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dead-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dead-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dead-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dead-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dead-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dead-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dead-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dead-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dead-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dead-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dead-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dead-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dead-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dead-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dead-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dead-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "5548207525855232.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "HPWarningOldSound.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NormalLow-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NormalLow-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NormalLow-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NormalLow-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NormalLow-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NormalLow-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NormalLow-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NormalLow-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NormalLow-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NormalLow-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NormalLow-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NormalLow-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NormalLow-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NormalLow-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NormalLow-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NormalLow-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NormalLow-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NormalLow-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NormalLow-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NormalLow-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NormalLow-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NormalLow-11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NormalLow-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NormalLow-12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-3-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-4-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-5-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Why-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Why-12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "EnemyWalking-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EnemyWalking-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "EnemyWalking-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EnemyWalking-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "EnemyWalking-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EnemyWalking-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pause-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pause-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Save-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Save-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveError-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveError-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Saving-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saving-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Saving-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saving-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "YT-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "YT-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DoorClose-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DoorClose-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DoorOpen-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DoorOpen-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DoorOpen-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DoorOpen-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DoorOpen-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DoorOpen-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RockBullet-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RockBullet-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RockBullet-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RockBullet-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RockBullet-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RockBullet-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RockBullet-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RockBullet-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ArrowMobile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ArrowMobile-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "up-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "up-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Up-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Up-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Up-22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Up-22.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Up-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Up-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "up-1-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "up-1-02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Down-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Down-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Down-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Down-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Left-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "left-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "left-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "left-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "left-1-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Right-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Right-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Right-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject3-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject3-1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "down-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "down-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "up-1-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "up-1-03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject3-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject3-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "5728059516256256.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "LightyGrassPlace.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "LightyMenuBGMusic.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "LightyMenuBGMusic.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "LightyTutorialPlace.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "LightyTutorialPlace.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Minecraft Hit.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Minecraft Hit.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject3-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject3-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject3-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject3-1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject3-1-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "left-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "left-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "HitEnemy.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 50\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0,\\\"sustainPunch\\\":0,\\\"decay\\\":0.32,\\\"tremoloDepth\\\":49,\\\"tremoloFrequency\\\":47,\\\"frequency\\\":6400,\\\"frequencySweep\\\":-1700,\\\"frequencyDeltaSweep\\\":-3800,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whitenoise\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":0.8,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"HitEnemy\"}}",
+        "name": "HitEnemy.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-15.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-16.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-17.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SaveFile-18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SaveFile-18.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "StoneTurret-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "StoneTurret-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "GrassPlaceBattleMusic.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "GrassPlaceBattleMusic.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RockBullet-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RockBullet-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RockBullet-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RockBullet-2-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RockBullet-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RockBullet-3-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RockBullet-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RockBullet-4-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "StoneTurret-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "StoneTurret-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart_Spinning_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart_Spinning_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Pixel art spinning Items/Heart_Spinning_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart_Spinning_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart_Spinning_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Pixel art spinning Items/Heart_Spinning_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart_Spinning_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart_Spinning_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Pixel art spinning Items/Heart_Spinning_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart_Spinning_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart_Spinning_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Pixel art spinning Items/Heart_Spinning_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Spinning-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Spinning-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Spinning-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Spinning-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Spinning-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Spinning-2-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Spinning-3-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spinning-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Spinning-4-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-2-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-3-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-4-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-5-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "fake bsod.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fake bsod.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "End.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "End.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "SaveFile",
+      "type": "structure",
+      "children": [
+        {
+          "name": "AbleToMove",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "CurrentMusic",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "Cutscene1",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "Cutscene2",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "Cutscene3",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "HPBarFrameSize",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "HPBarSize",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "HasLamp",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "HasShovel",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "Health",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "MaxHealth",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "X",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "Y",
+          "type": "string",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "LoadSaveFile",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "NewGame",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "canBeDamaged",
+      "type": "string",
+      "value": "1"
+    },
+    {
+      "name": "DeviceType",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "LowRes",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/start"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/new-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/new-scene2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene3"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/toggleswitch"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/turret"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/fps"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
